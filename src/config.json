@@ -3,7 +3,12 @@
     "environments": {
         "default": "defaultConf.json",
 
-        "stMale": "stMaleConf.json",
-        "stFemale": "stFemaleConf.json"
+        "stNotNeg": "stNotNegConf.json",
+        
+        "stNeg": "stNegConf.json",
+
+        "stCau": "stCauConf.json",
+
+        "stNotCau": "stNotCauConf.json"
     }       
 }

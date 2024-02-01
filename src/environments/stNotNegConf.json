@@ -1,0 +1,59 @@
+{
+    "localization": {
+        "title": "Matemática no ENEM",
+        "points": "Pontos",
+        "rightAnswers": "Acertos",
+        "ranking": "Ranking",
+        "myTrophies": "Meus troféus",
+        "stMessage": {
+            "header": "Notícias",
+            "text": "Negros têm mais dificuldade de permanecer na universidade.",
+            "next": "Continuar",
+            "img": "https://images.pexels.com/photos/7944240/pexels-photo-7944240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg"
+        },
+        "avatarSelection": {
+            "header": "1 - Personalize",
+            "text": "Escolha um avatar:",
+            "next": "Continuar"
+        },
+        "wrongAnswer": "Resposta errada!",
+        "rightAnswer": "Resposta certa!",
+        "quiz": {
+            "header": "Responda!",
+            "text": "Responda as questões abaixo para ganhar pontos, trofeus e atingir uma melhor posição no ranking!"
+        }
+    },
+
+    "preTest": "https://form.jotform.com/233404430562043?sessionid={{sessionId}}",
+    "postTest": "https://form.jotform.com/233386027528056?sessionid={{sessionId}}",
+
+    "theme": {
+        "primary": "blue",
+        "secondary": "blue"
+    },
+
+    "ranking": [{
+        "name": "Eric",
+        "points": 79,
+        "avatar": "./assets/{theme}/images/ranking1.png"
+    }, {
+        "name": "Jenny",
+        "points": 75,
+        "avatar": "./assets/{theme}/images/ranking2.png"
+    }, {
+        "name": "Anna",
+        "points": 63,
+        "avatar": "./assets/{theme}/images/ranking3.png"
+    }, {
+        "name": "Diego",
+        "points": 27,
+        "avatar": "./assets/{theme}/images/ranking4.png"
+    }],
+
+    "avatarList": [
+        "./assets/stNotNeg/images/avatar1.png",
+        "./assets/stNotNeg/images/avatar2.png",
+        "./assets/stNotNeg/images/avatar3.png",
+        "./assets/stNotNeg/images/avatar4.png"
+    ]
+}

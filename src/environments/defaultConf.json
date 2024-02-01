@@ -1,16 +1,16 @@
 {
     "localization": {
         "pageTitle": "Estudo sobre ansiedade",
-        "title": "Etapa II - Tutor",
+        "title": "Matemática no ENEM",
         "points": "Pontos",
         "rightAnswers": "Acertos",
         "ranking": "Ranking",
         "myTrophies": "Meus troféus",
         "stMessage": {
             "header": "0 - Mensagem",
-            "text": "",
+            "text": "Ensino superior proporciona vantagens pessoais e profissionais",
             "next": "Continuar",
-            "img": ""
+            "img": "https://images.pexels.com/photos/7713339/pexels-photo-7713339.jpeg"
         },
         "avatarSelection": {
             "header": "1 - Personalize",
@@ -25,30 +25,30 @@
         }
     },
 
-    "preTest": "",
-    "postTest": "",
+    "preTest": "https://form.jotform.com/233404430562043?sessionid={{sessionId}}",
+    "postTest": "https://form.jotform.com/233386027528056?sessionid={{sessionId}}",
 
     "playSound": true,
 
     "theme": {
-        "primary": "blueGrey",
-        "secondary": "blueGrey"
+        "primary": "blue",
+        "secondary": "blue"
     },
     
     "ranking":  [{
-        "name": "Alan",
+        "name": "Eric",
         "points": 79,
         "avatar": "./assets/{theme}/images/ranking1.png"
     }, {
-        "name": "Valentine",
+        "name": "Jenny",
         "points": 75,
         "avatar": "./assets/{theme}/images/ranking2.png"
     }, {
-        "name": "Francis",
+        "name": "Anna",
         "points": 63,
         "avatar": "./assets/{theme}/images/ranking3.png"
     }, {
-        "name": "Danni",
+        "name": "Diego",
         "points": 27,
         "avatar": "./assets/{theme}/images/ranking4.png"
     }],
@@ -56,149 +56,80 @@
     "avatarList": [
         "./assets/{theme}/images/avatar1.png",
         "./assets/{theme}/images/avatar2.png",
-        "./assets/{theme}/images/avatar3.png"
+        "./assets/{theme}/images/avatar3.png",
+        "./assets/{theme}/images/avatar4.png"
     ],
     
     "questions": [
         {
             "id": "1",
-            "text": "",
-            "image": "./assets/default/images/q-0.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA B"
+            "text": "Ao escutar à notícia de que um filme recém-lançado arrecadou, no primeiro mês de lançamento, R$ 1,35 bilhão em bilheteria, um estudante escreveu corretamente o número que representa essa quantia, com todos os seus algarismos. O número escrito pelo estudante foi",
+            "image": "",
+            "answers": [ "135000,00", "1350000,00", "13500000,00", "135000000,00", "1350000000,00" ],
+            "rightAnswer": "1350000000,00"
         },
         {
             "id": "2",
-            "text": "",
+            "text": "Uma máquina em operação tem sua temperatura T monitorada por meio de um registro gráfico, ao longo do tempo t. Essa máquina possui um pistão cuja velocidade V varia com a temperatura T da máquina, de acordo com à expressão V = T² - 4. Após a máquina funcionar durante o intervalo de tempo de 10 horas, o seu operador analisa o registro gráfico, apresentado na figura, para avaliar à necessidade de eventuais ajustes, sabendo que a máquina apresenta falhas de funcionamento quando a velocidade do pistão se anula. Quantas vezes a velocidade do pistão se anulou durante as 10 horas de funcionamento?",
             "image": "./assets/default/images/q-1.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA E"
+            "answers": [ "1", "2", "3", "4", "5" ],
+            "rightAnswer": "5"
         },
         {
             "id": "3",
-            "text": "",
+            "text": "Uma das informações que pode auxiliar no dimensionamento do número de pediatras que devem atender em uma Unidade Básica de Saúde (UBS) é o número que representa a mediana da quantidade de crianças por família existente na região sob sua responsabilidade. O quadro mostra a distribuição das frequências do número de crianças por família na região de responsabilidade de uma UBS. O número que representa a mediana da quantidade de crianças por família nessa região é",
             "image": "./assets/default/images/q-2.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA E"
+            "answers": [ "1,0", "1,5", "1,9", "2,1", "2,5" ],
+            "rightAnswer": "1,5"
         },
         {
             "id": "4",
-            "text": "",
+            "text": "A Pesquisa Nacional por Amostra de Domicílios (Pnad) é uma pesquisa feita anualmente pelo IBGE, exceto nos anos em que há Censo. Em um ano, foram entrevistados 363 mil jovens para fazer um levantamento sobre suas atividades profissionais e/ou acadêmicas. Os resultados da pesquisa estão indicados no gráfico. De acordo com as informações dadas, o número de jovens entrevistados que trabalha é",
             "image": "./assets/default/images/q-3.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA E"
+            "answers": [ "114708", "164076", "213444", "284592", "291582" ],
+            "rightAnswer": "213444"
         },
         {
             "id": "5",
-            "text": "",
+            "text": "Uma empresa de ônibus utiliza um sistema de vendas de passagens que fornece a imagem de todos os assentos do ônibus, diferenciando os assentos já vendidos, por uma cor mais escura, dos assentos ainda disponíveis. A empresa monitora, permanentemente, o número de assentos já vendidos e compara-o com o número total de assentos do ônibus para avaliar a necessidade de alocação de veículos extras. Na imagem tem-se a informação dos assentos já vendidos e dos ainda disponíveis em um determinado instante. A razão entre o número de assentos já vendidos e o total de assentos desse ônibus, no instante considerado na imagem, é",
             "image": "./assets/default/images/q-4.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA A"
+            "answers": [ "16/42", "16/26", "26/42", "42/26", "42/16" ],
+            "rightAnswer": "16/42"
         },
         {
             "id": "6",
-            "text": "",
+            "text": "A fabricação da Bandeira Nacional deve obedecer ao descrito na Lei n. 5.700, de 1º de setembro de 1971, que trata dos Símbolos Nacionais. No artigo que se refere às dimensões da Bandeira, observa-se: “Para cálculos das dimensões, será tomada por base a largura, dividindo-a em 14 (quatorze) partes iguais, sendo que cada uma das partes será considerada uma medida ou módulo (M). Os demais requisitos dimensionais seguem o critério abaixo: \n I. Comprimento será de vinte módulos (20 M); \n II. A distância dos vértices do losango amarelo ao quadro externo será de um módulo e sete décimos (1,7 M); \n III. O raio do círculo azul no meio do losango amarelo será de três módulos e meio (3,5 M).” \nBRASIL. Lei n. 5.700, de 1º de setembro de 1971.Disponível em: www.planalto.gov.br. Acesso em: 15 set. 2015.\nA figura indica as cores da bandeira do Brasil e localiza o quadro externo a que se refere a Lei n. 5.700. \nUm torcedor, preparando-se para a Copa do Mundo e dispondo de cortes de tecidos verde (180 cm x 150 cm) e amarelo (o quanto baste), deseja confeccionar a maior Bandeira Nacional possível a partir das medidas do tecido verde. Qual a medida, em centímetro, do lado do menor quadrado de tecido azul que deverá ser comprado para confecção do círculo da bandeira desejada?",
             "image": "./assets/default/images/q-5.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA B"
+            "answers": [ "27", "32", "53", "63", "90" ],
+            "rightAnswer": "63"
         },
         {
             "id": "7",
-            "text": "",
+            "text": "A exposição a barulhos excessivos, como os que percebemos em geral em trânsitos intensos, casas noturnas e espetáculos musicais, podem provocar insônia, estresse, infarto, perda de audição, entre outras enfermidades. De acordo com a Organização Mundial da Saúde, todo e qualquer som que ultrapasse os 55 decibéis (unidade de intensidade do som) já pode ser considerado nocivo para a saúde. O gráfico foi elaborado a partir da medição do ruído produzido, durante um dia, em um canteiro de obras. Nesse dia, durante quantas horas o ruído esteve acima de 55 decibéis?",
             "image": "./assets/default/images/q-6.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA D"
+            "answers": [ "5", "8", "10", "11", "13" ],
+            "rightAnswer": "13"
         },
         {
             "id": "8",
-            "text": "",
+            "text": "Os gráficos representam a produção de peças em uma indústria e as horas trabalhadas dos funcionários no período de cinco dias. Em cada dia, o gerente de produção aplica uma metodologia diferente de trabalho. Seu objetivo é avaliar a metodologia mais eficiente para utilizá-la como modelo nos próximos períodos. Sabe-se que, neste caso, quanto maior for a razão entre o número de peças produzidas e o número de horas trabalhadas, maior será a eficiência da metodologia. Em qual dia foi aplicada a metodologia mais eficiente?",
             "image": "./assets/default/images/q-7.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA E"
+            "answers": [ "1", "2", "3", "4", "5" ],
+            "rightAnswer": "3"
         },
         {
             "id": "9",
-            "text": "",
-            "image": "./assets/default/images/q-8.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA B"
+            "text": "Uma empresa de comunicação tem a tarefa de elaborar um material publicitário de um estaleiro para divulgar um novo navio, equipado com um guindaste de 15 m de altura e uma esteira de 90 m de comprimento. No desenho desse navio, a representação do guindaste deve ter sua altura entre 0,5 cm e 1 cm, enquanto a esteira deve apresentar comprimento superior a 4 cm. Todo o desenho deverá ser feito em uma escala 1:X. Os valores possíveis para X são, apenas,",
+            "image": "",
+            "answers": [ "X > 1500", "X < 3000", "1500 < X < 2250", "1500 < X < 3000", "2250 < X < 3000" ],
+            "rightAnswer": "1500 < X < 2250"
         },
         {
             "id": "10",
-            "text": "",
-            "image": "./assets/default/images/q-9.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA B"
-        },
-        {
-            "id": "11",
-            "text": "",
-            "image": "./assets/default/images/q-10.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA E"
-        },
-        {
-            "id": "12",
-            "text": "",
-            "image": "./assets/default/images/q-11.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA B"
-        },
-        {
-            "id": "13",
-            "text": "",
-            "image": "./assets/default/images/q-12.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA C"
-        },
-        {
-            "id": "14",
-            "text": "",
-            "image": "./assets/default/images/q-13.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA E"
-        },
-        {
-            "id": "15",
-            "text": "",
-            "image": "./assets/default/images/q-14.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA A"
-        },
-        {
-            "id": "16",
-            "text": "",
-            "image": "./assets/default/images/q-15.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA C"
-        },
-        {
-            "id": "17",
-            "text": "",
-            "image": "./assets/default/images/q-16.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA B"
-        },
-        {
-            "id": "18",
-            "text": "",
-            "image": "./assets/default/images/q-17.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA D"
-        },
-        {
-            "id": "19",
-            "text": "",
-            "image": "./assets/default/images/q-18.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA B"
-        },
-        {
-            "id": "20",
-            "text": "",
-            "image": "./assets/default/images/q-19.png",
-            "answers": [ "LETRA A", "LETRA B", "LETRA C", "LETRA D", "LETRA E" ],
-            "rightAnswer": "LETRA A"
+            "text": "Os tipos de prata normalmente vendidos são 975, 950 e 925. Essa classificação é feita de acordo com a sua pureza. Por exemplo, a prata 975 é a substância constituída de 975 partes de prata pura e 25 partes de cobre em 1 000 partes da substância. Já a prata 950 é constituída de 950 partes de prata pura e 50 de cobre em 1 000; e a prata 925 é constituída de 925 partes de prata pura e 75 partes de cobre em 1 000. Um ourives possui 10 gramas de prata 925 e deseja obter 40 gramas de prata 950 para produção de uma joia. Nessas condições, quantos gramas de prata e de cobre, respectivamente, devem ser fundidos com os 10 gramas de prata 925?",
+            "image": "",
+            "answers": [ "a) 29,25 e 0,75", "b) 28,75 e 1,25", "c) 28,50 e 1,50", "d) 27,75 e 2,25", "e) 25,00 e 5,00" ],
+            "rightAnswer": "b) 28,75 e 1,25"
         }
     ],
 
@@ -230,7 +161,7 @@
             "unlockAt": {
                 "points": 0,
                 "correctAnswers": 0,
-                "question": 20
+                "question": 10
             }
         }
     ]
