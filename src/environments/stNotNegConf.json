@@ -24,8 +24,6 @@
         }
     },
 
-    "preTest": "https://form.jotform.com/233404430562043?sessionid={{sessionId}}",
-    "postTest": "https://form.jotform.com/233386027528056?sessionid={{sessionId}}",
 
     "theme": {
         "primary": "blue",
