@@ -8,9 +8,9 @@
         "myTrophies": "Meus troféus",
         "stMessage": {
             "header": "0 - Mensagem",
-            "text": "Ensino superior proporciona vantagens pessoais e profissionais",
+            "text": " ",
             "next": "Continuar",
-            "img": "https://images.pexels.com/photos/7713339/pexels-photo-7713339.jpeg"
+            "img": " "
         },
         "avatarSelection": {
             "header": "1 - Personalize",
@@ -31,8 +31,8 @@
     "playSound": true,
 
     "theme": {
-        "primary": "blue",
-        "secondary": "blue"
+        "primary": "blueGrey",
+        "secondary": "blueGrey"
     },
     
     "ranking":  [{
