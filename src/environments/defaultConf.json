@@ -25,8 +25,8 @@
         }
     },
 
-    "preTest": "https://form.jotform.com/233404430562043?sessionid={{sessionId}}",
-    "postTest": "https://form.jotform.com/233386027528056?sessionid={{sessionId}}",
+    "preTest": "https://form.jotform.com/242079550557058?sessionid={{sessionId}}",
+    "postTest": "https://form.jotform.com/242080487162657?sessionid={{sessionId}}",
 
     "playSound": true,
 
